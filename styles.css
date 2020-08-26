@@ -13,12 +13,13 @@ h1 {
     font-family: 'Pangolin', sans-serif;
     font-size: xx-large;
     color: rgb(38,35,52);
+    text-align: center;
 }
 
 article.app img {
     display: block;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     margin: auto;
 }
 
@@ -38,10 +39,18 @@ article.app img {
     border: 40px solid transparent;
     border-radius: 40px;
     padding: 0px 10px;
+
+    border-image-source: url(assets/phone-frame-vertical.png);
+    border-image-slice: 525;
+    border-image-outset: 10px;
+
+    overflow: hidden;
 }
 
 article.app h2 {
     font-family: 'Pangolin', sans-serif;
     font-size: medium;
+    font-weight: 100;
+    text-align: center;
     color: white;
 }
