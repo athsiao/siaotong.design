@@ -1,27 +1,89 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
 
-        <!-- Responsive design -->
-        <style>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Athena Siaotong </title>
+
+    <!-- Responsive design -->
+    <style>
         @media (min-width: 992px) {
-            
+            .app {
+                width: 23%;
+            }
+
+            #maincontent {
+                border-image-source: url(assets/phone-frame.png);
+                border-image-slice: 525;
+                border-image-outset: 10px;
+            }
         }
 
         @media (min-width: 769px) and (max-width: 991px) {
-            
+            .app {
+                width: 30%;
+            }
         }
         </style>
+</head>
 
-        <title>
-            Athena Siaotong
-        </title>
-    </head>
-    <!-- Visable to the user -->
-    <body>
-        example text
-        
-    </body>
+<!-- Visible to viewer -->
+<body>
+
+<h1>Athena Siaotong</h1>
+<section id="maincontent">
+    
+    <article class="app">
+        <img src="assets/app-icons/about.png">
+        <h2>about</h2>
+    </article>
+
+    <article class="app">
+        <img src="assets/app-icons/design.png">
+        <h2>design</h2>
+    </article>
+
+    <article class="app">
+        <img src="assets/app-icons/illustration.png">
+        <h2>illustration</h2>
+    </article>
+
+    <article class="app">
+        <img src="assets/app-icons/contact.png">
+        <h2>contact</h2>
+    </article>
+
+    <article class="app">
+        <a href="https://github.com/athsiao" target="_blank">
+            <img src="assets/app-icons/github.png">
+            <h2>github</h2>
+        </a>
+    </article>
+
+    <article class="app">
+        <a href="https://dribbble.com/athsiao" target="_blank">
+            <img src="assets/app-icons/dribbble.png">
+            <h2>dribbble</h2>
+        </a>
+    </article>
+
+    <article class="app">
+        <a href="https://www.linkedin.com/in/athena-siaotong/" target="_blank">
+            <img src="assets/app-icons/linkedin.png">
+            <h2>linkedin</h2>
+        </a>
+    </article>
+
+    <article class="app">
+        <a href="http://instagram.com/designbysiao" target="_blank">
+            <img src="assets/app-icons/instagram.png">
+            <h2>instagram</h2>
+        </a>
+    </article>
+    <div>placeholder</div>
+
+</section>
+
+</body>
+
 </html>

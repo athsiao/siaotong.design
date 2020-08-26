@@ -4,5 +4,44 @@
 
 body {
     background-color: rgb(252,214,219);
-    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none currentcolor solid
+}
+h1 {
+    font-family: 'Pangolin', sans-serif;
+    font-size: xx-large;
+    color: rgb(38,35,52);
+}
+
+article.app img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+.app {
+    float: left;
+    width: 100%;
+    margin: 5px;
+}
+
+#maincontent {
+    width: 60%;
+    height: 80%;
+    margin: 30px auto;
+
+    background-color: rgb(252,87,83);
+
+    border: 40px solid transparent;
+    border-radius: 40px;
+    padding: 0px 10px;
+}
+
+article.app h2 {
+    font-family: 'Pangolin', sans-serif;
+    font-size: medium;
+    color: white;
 }
