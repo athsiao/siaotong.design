@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+    .app {
+        width: 23%;
+    }
+
+    #maincontent {
+        border-image-source: url(assets/phone-frame.png);
+        border-image-slice: 525;
+        border-image-outset: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .app {
+        width: 30%;
+    }
+}
